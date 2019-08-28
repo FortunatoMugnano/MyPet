@@ -65,8 +65,8 @@ restaurant.placeOrder(baconBurger);
 console.log(restaurant.orders)
 // Invoke the function to return the list of all orders
 const listOrder = function () {
-    for (i = 0; i < restaurant.orders.length; i++) {
-        return 
+    for (let i = 0; i < restaurant.orders.length; i++) {
+        return listOrder[i]
     }
 }
 console.log(listOrder)
